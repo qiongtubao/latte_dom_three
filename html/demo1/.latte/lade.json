@@ -1,5 +1,18 @@
 {
-	"inConfig": "./index.lade",
-	"outData": "./index.json",
-	"outHtml": "./index.html"
+	"build": [
+		"index"
+	],
+	"clean": [
+
+	],
+	"commands": {
+		"index": [
+			{
+				"type": "build",
+				"inConfig": "./index.lade",
+				"outHtml": "./index.html"
+			}
+		] 
+	} 
+	
 }

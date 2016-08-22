@@ -1,9 +1,9 @@
 import<../head.lade>
 		div [style:"width:100%;height:100%"] (controller:"demo")
+
 			div [class:"three"] (three:"three" data:"three")
 				a (click:"click" html:"{{title}}")
 					i.ion-ios-calculator-outline
 					span.nav-drawer-label.ng-scope "UI ELEMENTS"
-
-
-	script [src:"./js/init.js"]
+		link [rel:"stylesheet" type:"text/css" href:"./css/index.css"]
+		script [src:"./js/init.js"]

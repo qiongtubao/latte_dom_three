@@ -9,7 +9,7 @@
         	}
         	.three  ul{
         		list-style: none;
-
+                padding-left:0;
         	}
         	.three ul  li {
     		    background-color: #467ca2;
