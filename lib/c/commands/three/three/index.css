@@ -3,12 +3,13 @@
 }
 .three ul {
 	margin-bottom:0;
+	-webkit-margin-before:0;
+	-webkit-margin-after:0;
+	padding-start: 40px;
 	padding-left: 20px;
 	list-style:none;
 }
-.three > ul{
-	padding-left: 0px;
-}
+
 .three ul li {
 	position: relative;
 	display: block;
@@ -35,12 +36,16 @@
 	content:"+";
 	transform: translate(50%, -50%);
 }
-.three .ul0 .open ul {
-                display: block;
-            }
-            .three  .ul0  ul {
-                display: none;
-            }
+.three .open >ul {
+    display: block;
+}
+.three  ul {
+    display: none;
+}
+.three > ul{
+	padding-left: 0px;
+	display: block;
+}
 .three .open > .submenu:after {
 	content: "-";
 }
